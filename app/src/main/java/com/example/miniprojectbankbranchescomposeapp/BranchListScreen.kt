@@ -21,7 +21,7 @@ fun BranchListScreen( onCardClicked: (Branch) -> Unit = {}, navController: NavCo
         items(branches) { branch ->
             BranchCard(
                 branch = branch,
-                onClick = { navController.navigate("branchDetails/${branch.id}") },
+                onClick = { navController.navigate("${NavRoutesEnum.NAV_ROUTE_BRANCH_DETAILS.value}/${branch.id}") },
                 onFavoriteClick = {
                     branch.isFavorite = !branch.isFavorite
                 }
