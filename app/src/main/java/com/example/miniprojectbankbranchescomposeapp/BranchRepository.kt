@@ -1,0 +1,76 @@
+package com.example.miniprojectbankbranchescomposeapp
+
+object BranchRepository {
+    var branches = listOf(
+        Branch(
+            id = 1,
+            name = "Qortuba Branch",
+            type = BranchType.ATM,
+            address = "Qortuba Co-op",
+            phone = "+965 181 5050",
+            hours = "8:00 AM - 3:00 PM",
+            location = "https://maps.google.com/?q=Qortuba",
+            imageUri = R.drawable.branch1,
+        ),
+        Branch(
+            id = 2,
+            name = "Shamiya Branch",
+            type = BranchType.MAIN,
+            address = "Shamiya Co-op",
+            phone = "+965 181 4040",
+            hours = "8:00 AM - 3:00 PM",
+            location = "https://maps.google.com/?q=Shamiya",
+            imageUri = R.drawable.branch2,
+        ),
+        Branch(
+            id = 3,
+            name = "Ishbiliya Branch",
+            type = BranchType.ATM,
+            address = "Ishbiliya Co-op",
+            phone = "+965 181 3030",
+            hours = "9:00 AM - 4:00 PM",
+            location = "https://maps.google.com/?q=Ishbiliya",
+            imageUri = R.drawable.branch3,
+        ),
+        Branch(
+            id = 4,
+            name = "Rumaithiya Branch",
+            type = BranchType.MAIN,
+            address = "Rumaithiya Co-op",
+            phone = "+965 181 3030",
+            hours = "24/7",
+            location = "https://maps.google.com/?q=Rumaithiya",
+            imageUri = R.drawable.branch4,
+        ),
+        Branch(
+            id = 5,
+            name = "Bayan Branch",
+            type = BranchType.MAIN,
+            address = "Bayan Co-op",
+            phone = "+965 181 2020",
+            hours = "24/7",
+            location = "https://maps.google.com/?q=Bayan",
+            imageUri = R.drawable.branch5,
+        ),
+        Branch(
+            id = 6,
+            name = "Salwa Branch",
+            type = BranchType.ATM,
+            address = "Salwa Co-op",
+            phone = "+965 181 1010",
+            hours = "8:00 AM - 3:00 PM",
+            location = "https://maps.google.com/?q=Salwa",
+            imageUri = R.drawable.branch6,
+        ),
+        Branch(
+            id = 7,
+            name = "Adailiya Branch",
+            type = BranchType.MAIN,
+            address = "Adailiya Co-op",
+            phone = "+965 181 7070",
+            hours = "24/7",
+            location = "https://maps.google.com/?q=Adailiya",
+            imageUri = R.drawable.branch7,
+        )
+    )
+}
